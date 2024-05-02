@@ -2,9 +2,9 @@
 *,
 *:before,
 *:after {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* 백초기화 */
@@ -34,8 +34,8 @@ th,
 ul,
 figure,
 figcaption{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 /* 폰트 초기화 */
@@ -45,15 +45,15 @@ input,
 select,
 table,
 textarea{
-    font-family:var(--mainEng-font),var(--mainKor-font),"Apple SD Gothic Neo",
-    "Malgun Gothic","맑은고딕",helvetica,sans-serif;
+    font-family: var(--mainEng-font), var(--mainKor-font), "Apple SD Gothic Neo",
+    "Malgun Gothic", "맑은고딕", helvetica, sans-serif;
 }
 
 /* 링크 초기화 */
 a,
 a:hover,
 a:focus{
-    color:inherit;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ ul{
 
 em,
 address{
-    font-style:normal;
+    font-style: normal;
 }
 
 strong{
@@ -88,15 +88,15 @@ img{
 /* 스킵메뉴 설정 */
 #skip a{
     position: absolute;
-    left:10px;
-    top:-92px;
-    z-index:100000;
-    font-size:1rem;
-    padding:10px 30px;
+    left: 10px;
+    top: -92px;
+    z-index: 100000;
+    font-size: 1rem;
+    padding: 10px 30px;
     color: var(--white);
     background: var(--black);
 }
 #skip a:focus,
 #skip a:active{
-    top:10px;
+    top: 10px;
 }

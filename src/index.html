@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="하나의 사이트, 다양한 프레임워크" />
         <meta name="keyword" content="포트폴리오, Vite, React, Vue, Next, React.js, Vue.js, Next.js"/>
-
+        <title>포트폴리오 사이트 With viewport</title>
         <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg"/>
         <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
@@ -22,19 +22,19 @@
         <header id="header" role="banner">
             <div class="header__inner">
                 <div class="header__logo">
-                    <a href="#">portfolio<em>developer</em></a>
+                    <a href="#">portfolio<em>vite</em></a>
                 </div>
                 <nav class="header__nav" role="navigation" aria-label="메인메뉴">
                     <ul>
-                        <li><a href="#intro"></a></li>
-                        <li><a href="#skill"></a></li>
-                        <li><a href="#site"></a></li>
-                        <li><a href="#port"></a></li>
-                        <li><a href="#contact"></a></li>
+                        <li><a href="#intro">intro</a></li>
+                        <li><a href="#skill">skill</a></li>
+                        <li><a href="#site">site</a></li>
+                        <li><a href="#port">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
                     </ul>
                 </nav>
                 <div 
-                    class="header__nav_mobile"
+                    class="header__nav__mobile"
                     id="headerToggle"
                     aria-controls="primary-menu"
                     aria-expanded="false"
@@ -47,7 +47,38 @@
 
         <main id="main" role="main">
             <section id="intro">
-                intro
+                <div class="intro__inner">
+                    <h1 class="intro__title">
+                        port developer
+                    </h1>
+                    <div class="intro__lines" aria-hidden="true">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                    <div class="intro__text">
+                        <div class="text">
+                            <div>be a developer</div>
+                            <div>not a coder</div>
+                        </div>
+                        <div class="img">
+                            <img src="assets/img/about.jpg" alt="About" />
+                        </div>
+                    </div>
+                    <div class="intro__lines__bottom" aria-hidden="true">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
             </section>
 
             <section id="skill">
