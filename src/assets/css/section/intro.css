@@ -10,7 +10,7 @@
     flex-direction: column;
     padding: 16px;
 }
-.intro_title{
+.intro__title{
     font-size: 10vw;
     text-transform: uppercase;
     line-height: 1;

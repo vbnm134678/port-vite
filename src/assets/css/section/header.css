@@ -14,13 +14,15 @@
     padding: 1rem;
 }
 .header__logo{
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     line-height: 1;
 }
 .header__logo em{
     font-size: 10px;
+    font-weight: normal;
     display: block;
     color: var(--black200);
 }
