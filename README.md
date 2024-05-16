@@ -4,10 +4,10 @@
 프론트엔드 개발자로 많은 프레임워크를 경험하고 이 과정에서 어떻게 적용되는지 공부합니다.
 또한 각 프레임워크들의 장단점을 비교 분석하며 학습합니다.
 
-1. [vite](https://github.com/webstoryboy/port2023-vite)를 이용하여 사이트를 제작합니다.
-2. [react.js](https://github.com/webstoryboy/port2023-react)를 이용하여 사이트를 제작합니다.
-3. [vue.js](https://github.com/webstoryboy/port2023-vue)를 이용하여 사이트를 제작합니다.
-4. [next.js](https://github.com/webstoryboy/port2023-next)를 이용하여 사이트를 제작합니다.
+1. Vite를 이용하여 사이트를 제작합니다.
+2. react.js를 이용하여 사이트를 제작합니다.
+3. vue.js를 이용하여 사이트를 제작합니다.
+4. next.js를 이용하여 사이트를 제작합니다.
 
 ## 사용 스택
 
@@ -21,4 +21,8 @@
 ## 프로젝트 실행
 
 - `npm run dev` 를 통해 프로젝트를 실행합니다.
-  참고: https://webstoryboy.co.kr/1924 [WEBSTORYBOY:티스토리]
+
+## 관련 문서
+- [Notion](https://veil-limpet-f0d.notion.site/With-Vite-852d52095cdc4a62b934223460f0a0e8?pvs=4)<br />
+
+참고: [WEBSTORYBOY:티스토리](https://webstoryboy.co.kr/1924)
